@@ -1,0 +1,42 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"tl_grasslands",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"Gramado/terra","closed_edge":false,"name":"Gramado/terra","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[219,289,286,287,199,229,0,188,196,0,226,190,197,248,250,257,],},
+    {"$GMAutoTileSet":"","%Name":"Morro/flor","closed_edge":false,"name":"Morro/flor","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[92,275,271,63,185,91,0,61,181,0,94,64,153,151,154,212,],},
+    {"$GMAutoTileSet":"","%Name":"Gramado/agua","closed_edge":false,"name":"Gramado/agua","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[103,470,466,468,380,410,0,372,376,0,406,375,378,462,465,408,],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"tl_grasslands",
+  "out_columns":29,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Conjuntos de tiles",
+    "path":"folders/Conjuntos de tiles.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"spr_tileset",
+    "path":"sprites/spr_tileset/spr_tileset.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":870,
+}
