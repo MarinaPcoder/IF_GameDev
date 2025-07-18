@@ -59,6 +59,7 @@
     {"id":{"name":"spr_aguaanim","path":"sprites/spr_aguaanim/spr_aguaanim.yy",},},
     {"id":{"name":"spr_colisor","path":"sprites/spr_colisor/spr_colisor.yy",},},
     {"id":{"name":"spr_inimigo_idle","path":"sprites/spr_inimigo_idle/spr_inimigo_idle.yy",},},
+    {"id":{"name":"spr_inimigo_stun_2","path":"sprites/spr_inimigo_stun_2/spr_inimigo_stun_2.yy",},},
     {"id":{"name":"spr_inimigo_stun","path":"sprites/spr_inimigo_stun/spr_inimigo_stun.yy",},},
     {"id":{"name":"spr_inimigo_walk","path":"sprites/spr_inimigo_walk/spr_inimigo_walk.yy",},},
     {"id":{"name":"spr_Jogador_attack_back","path":"sprites/spr_Jogador_attack_back/spr_Jogador_attack_back.yy",},},

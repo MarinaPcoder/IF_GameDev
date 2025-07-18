@@ -9,7 +9,10 @@
     "name":"Inimigos",
     "path":"folders/Objetos/Entities/Inimigos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_Inimigo_pai",
+    "path":"objects/obj_Inimigo_pai/obj_Inimigo_pai.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,13 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
+  "spriteId":{
+    "name":"spr_inimigo_idle",
+    "path":"sprites/spr_inimigo_idle/spr_inimigo_idle.yy",
+  },
+  "spriteMaskId":{
+    "name":"spr_inimigo_idle",
+    "path":"sprites/spr_inimigo_idle/spr_inimigo_idle.yy",
+  },
   "visible":true,
 }
