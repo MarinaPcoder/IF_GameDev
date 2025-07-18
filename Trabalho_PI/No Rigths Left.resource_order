@@ -10,7 +10,8 @@
     {"name":"Linhas do tempo","order":8,"path":"folders/Linhas do tempo.yy",},
     {"name":"Objetos","order":9,"path":"folders/Objetos.yy",},
     {"name":"Coisa do Player","order":3,"path":"folders/Objetos/Coisa do Player.yy",},
-    {"name":"Inimigos","order":4,"path":"folders/Objetos/Inimigos.yy",},
+    {"name":"Entities","order":5,"path":"folders/Objetos/Entities.yy",},
+    {"name":"Player","order":1,"path":"folders/Objetos/Entities/Player.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
     {"name":"Sequências","order":11,"path":"folders/Sequências.yy",},
@@ -31,6 +32,7 @@
   "ResourceOrderSettings":[
     {"name":"obj_colisor","order":1,"path":"objects/obj_colisor/obj_colisor.yy",},
     {"name":"obj_dano","order":1,"path":"objects/obj_dano/obj_dano.yy",},
+    {"name":"obj_inimigo_01","order":1,"path":"objects/obj_inimigo_01/obj_inimigo_01.yy",},
     {"name":"spr_aguaanim","order":1,"path":"sprites/spr_aguaanim/spr_aguaanim.yy",},
     {"name":"spr_Jogador_attack_back","order":1,"path":"sprites/spr_Jogador_attack_back/spr_Jogador_attack_back.yy",},
     {"name":"spr_Jogador_attack_side","order":2,"path":"sprites/spr_Jogador_attack_side/spr_Jogador_attack_side.yy",},
