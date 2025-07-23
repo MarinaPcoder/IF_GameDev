@@ -1,5 +1,6 @@
 estado_idle = new estado();
 estado_stun = new estado();
+estado_walk = new estado();
 estado_atual = estado_idle;
 estado_atual.inicia();
 

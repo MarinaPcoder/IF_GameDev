@@ -33,12 +33,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_inimigo_idle",
-    "path":"sprites/spr_inimigo_idle/spr_inimigo_idle.yy",
+    "name":"spr_inimigo_chase_idle",
+    "path":"sprites/spr_inimigo_chase_idle/spr_inimigo_chase_idle.yy",
   },
   "spriteMaskId":{
-    "name":"spr_inimigo_idle",
-    "path":"sprites/spr_inimigo_idle/spr_inimigo_idle.yy",
+    "name":"spr_inimigo_chase_idle",
+    "path":"sprites/spr_inimigo_chase_idle/spr_inimigo_chase_idle.yy",
   },
   "visible":true,
 }
