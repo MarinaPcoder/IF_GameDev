@@ -5,6 +5,9 @@ event_inherited();
 
 tempo_estado = game_get_speed(gamespeed_fps) * 10;
 timer_estado = tempo_estado;
+timer_andar = 0;
+postox = 0;
+postoy = 0;
 
 
 estado_idle.inicia = function()
@@ -15,8 +18,8 @@ image_index = 0;
 
 estado_idle.roda = function()
 {
-tempo_estado --;
-	if(tempo_estado <= 0)
+timer_estado --;
+	if(timer_estado <= 0)
 		{
 			troca_estado(estado_walk)
 		}
@@ -37,11 +40,24 @@ estado_walk.inicia = function()
 {
 sprite_index = spr_inimigo_chase_walk;
 image_index = 0;
+timer_andar = 200;
 
+//fazendo a patrulha
+postox = irandom(room_width);
+postoy = irandom(room_height);
 }
 
 estado_walk.roda = function()
 {
+	
+timer_andar --;
+mp_linear_step(postox, postoy, 1, obj_colisor);
+	if(timer_andar <= 0)
+	{
+		troca_estado(estado_idle);
+	}
+	
+	
 
 	
 }
