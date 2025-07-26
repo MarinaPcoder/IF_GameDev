@@ -24,6 +24,7 @@
     {"name":"Stun","order":3,"path":"folders/Sprites/Inimigos/Patrulha/Stun.yy",},
     {"name":"Walk","order":2,"path":"folders/Sprites/Inimigos/Patrulha/Walk.yy",},
     {"name":"Perseguidor","order":4,"path":"folders/Sprites/Inimigos/Perseguidor.yy",},
+    {"name":"Attack","order":3,"path":"folders/Sprites/Inimigos/Perseguidor/Attack.yy",},
     {"name":"stun","order":1,"path":"folders/Sprites/Inimigos/Perseguidor/stun.yy",},
     {"name":"walk","order":2,"path":"folders/Sprites/Inimigos/Perseguidor/walk.yy",},
     {"name":"Jogador","order":1,"path":"folders/Sprites/Jogador.yy",},

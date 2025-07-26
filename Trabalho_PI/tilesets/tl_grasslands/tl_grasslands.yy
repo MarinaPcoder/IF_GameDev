@@ -7,9 +7,10 @@
     {"$GMAutoTileSet":"","%Name":"Gramado/agua","closed_edge":false,"name":"Gramado/agua","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[103,470,466,468,380,410,0,372,376,0,406,375,378,462,465,408,],},
   ],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":14,
+    "SerialiseWidth":5,
+    "TileCompressedData":[-63,0,2,753,754,-3,0,2,783,784,],
+    "TileDataFormat":1,
   },
   "name":"tl_grasslands",
   "out_columns":29,

@@ -12,8 +12,8 @@ postoy = 0;
 
 estado_idle.inicia = function()
 {
-sprite_index = spr_inimigo_chase_idle;
-image_index = 0;
+	sprite_index = spr_inimigo_chase_idle;
+	image_index = 0;
 }
 
 estado_idle.roda = function()
@@ -38,9 +38,9 @@ stun_timer = 300;
 
 estado_walk.inicia = function()
 {
-sprite_index = spr_inimigo_chase_walk;
-image_index = 0;
-timer_andar = 200;
+	sprite_index = spr_inimigo_chase_walk;
+	image_index = 0;
+	timer_andar = 200;
 
 //fazendo a patrulha
 postox = irandom(room_width);
@@ -60,6 +60,14 @@ mp_linear_step(postox, postoy, 1, obj_colisor);
 	
 
 	
+}
+ 
+#endregion
+
+#region estado_attack
+
+estado_attack.inicia = function() {
+	sprite_index = spr_slime
 }
 
 #endregion
