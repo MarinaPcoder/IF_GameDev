@@ -1,37 +1,33 @@
 // Inherit the parent event
 event_inherited();
 
-
-
 tempo_estado = game_get_speed(gamespeed_fps) * 10;
 timer_estado = tempo_estado;
-timer_andar = 0;
 postox = 0;
 postoy = 0;
 
+alvo = noone;
 
 estado_idle.inicia = function()
 {
 	sprite_index = spr_inimigo_chase_idle;
 	image_index = 0;
+	timer_estado = 300;
 }
 
 estado_idle.roda = function()
 {
-timer_estado --;
-	if(timer_estado <= 0)
+	timer_estado --;
+
+	var _tempo = irandom(timer_estado)
+
+	if(_tempo < 1)
 		{
-			troca_estado(estado_walk)
+			troca_estado(estado_walk);
 		}
 }
 
-estado_stun.inicia = function()
-{
-sprite_index = spr_inimigo_chase_stun;
-image_index = 0
-stun_timer = 300;
 
-}
 
 
 #region Walk
@@ -40,7 +36,7 @@ estado_walk.inicia = function()
 {
 	sprite_index = spr_inimigo_chase_walk;
 	image_index = 0;
-	timer_andar = 200;
+	timer_estado = 200;
 
 //fazendo a patrulha
 postox = irandom(room_width);
@@ -50,16 +46,17 @@ postoy = irandom(room_height);
 estado_walk.roda = function()
 {
 	
-timer_andar --;
-mp_linear_step(postox, postoy, 1, obj_colisor);
-	if(timer_andar <= 0)
+	timer_estado --;
+	
+	var _tempo = irandom(timer_estado)
+	
+	if(_tempo <= 0)
 	{
-		troca_estado(estado_idle);
+		 troca_estado(estado_idle);
 	}
 	
-	
-
-	
+	// Desvio de obstaculos
+	mp_potential_step_object(postox, postoy, 1, obj_colisor);
 }
  
 #endregion
@@ -67,7 +64,12 @@ mp_linear_step(postox, postoy, 1, obj_colisor);
 #region estado_attack
 
 estado_attack.inicia = function() {
-	sprite_index = spr_slime
+	sprite_index = spr_slime_attack;
+	image_index = 0;
+}
+
+estado_attack.roda = function() {
+	
 }
 
 #endregion
@@ -76,3 +78,28 @@ estado_attack.inicia = function() {
 
 #endregion
 
+#region estado_hurt
+	
+	estado_hurt.inicia = function() {
+		sprite_index = spr_inimigo_chase_walk;
+		image_index = 0;
+		
+		if (instance_exists(obj_jogador)) {
+			alvo = obj_jogador.id;
+		}
+	}
+	
+	estado_hurt.roda = function() {
+		// Se o alvo não existir mais
+		if (!instance_exists(obj_jogador)) {
+			alvo = noone;
+			troca_estado(estado_idle);
+		}
+		
+		// Definindo alvo
+		
+		// Seguindo meu alvo
+		mp_potential_step_object(alvo.x, alvo.y, 1,  obj_colisor);
+	}
+
+#endregion
