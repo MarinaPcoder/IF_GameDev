@@ -1,21 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_butao",
+  "%Name":"obj_interagivel",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_butao",
+  "name":"obj_interagivel",
   "overriddenProperties":[],
   "parent":{
     "name":"Level elements",
     "path":"folders/Objetos/Level elements.yy",
   },
-  "parentObjectId":{
-    "name":"obj_interagivel",
-    "path":"objects/obj_interagivel/obj_interagivel.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_botao",
-    "path":"sprites/spr_botao/spr_botao.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

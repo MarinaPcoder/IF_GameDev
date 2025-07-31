@@ -41,6 +41,7 @@
     {"name":"obj_butao","order":1,"path":"objects/obj_butao/obj_butao.yy",},
     {"name":"obj_dano","order":1,"path":"objects/obj_dano/obj_dano.yy",},
     {"name":"obj_inimigo_01","order":1,"path":"objects/obj_inimigo_01/obj_inimigo_01.yy",},
+    {"name":"obj_interagivel","order":3,"path":"objects/obj_interagivel/obj_interagivel.yy",},
     {"name":"obj_porta","order":2,"path":"objects/obj_porta/obj_porta.yy",},
     {"name":"spr_aguaanim","order":1,"path":"sprites/spr_aguaanim/spr_aguaanim.yy",},
     {"name":"spr_botao_ativado","order":1,"path":"sprites/spr_botao_ativado/spr_botao_ativado.yy",},

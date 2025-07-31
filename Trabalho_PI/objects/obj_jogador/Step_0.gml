@@ -11,8 +11,11 @@ interact = keyboard_check(ord("E"));
 
 attack = keyboard_check_pressed(vk_space);
 
+
+#region Interagir
+
 // Verifica se está colidindo com algum objeto interagível
-var alvo = instance_place(x, y, obj_butao);
+var alvo = instance_place(x, y, obj_interagivel);
 
 if (alvo != noone) {
 
@@ -23,6 +26,7 @@ if (alvo != noone) {
     }
 }
 
+#endregion
 //Rodando a maquina de estado
 
 roda_estado();

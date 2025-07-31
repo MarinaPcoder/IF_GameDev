@@ -63,6 +63,7 @@
     {"id":{"name":"obj_dano","path":"objects/obj_dano/obj_dano.yy",},},
     {"id":{"name":"obj_inimigo_01","path":"objects/obj_inimigo_01/obj_inimigo_01.yy",},},
     {"id":{"name":"obj_Inimigo_pai","path":"objects/obj_Inimigo_pai/obj_Inimigo_pai.yy",},},
+    {"id":{"name":"obj_interagivel","path":"objects/obj_interagivel/obj_interagivel.yy",},},
     {"id":{"name":"obj_jogador","path":"objects/obj_jogador/obj_jogador.yy",},},
     {"id":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
