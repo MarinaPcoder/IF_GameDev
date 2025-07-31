@@ -137,6 +137,7 @@ down = noone;
 left = noone;
 right = noone;
 attack = noone;
+interact = noone;
 
 //Var movimento
 velx = 0;

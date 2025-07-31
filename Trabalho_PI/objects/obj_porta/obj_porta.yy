@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_colisor",
-  "eventList":[],
+  "%Name":"obj_porta",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_colisor",
+  "name":"obj_porta",
   "overriddenProperties":[],
   "parent":{
     "name":"Level elements",
@@ -28,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_colisor",
-    "path":"sprites/spr_colisor/spr_colisor.yy",
+    "name":"spr_porta_desativada",
+    "path":"sprites/spr_porta_desativada/spr_porta_desativada.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
