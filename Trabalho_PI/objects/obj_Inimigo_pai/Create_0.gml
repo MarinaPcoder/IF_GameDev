@@ -6,9 +6,10 @@ estado_hurt = new estado();
 estado_atual = estado_idle;
 estado_atual.inicia();
 
+// Variaveis comuns a todos os inimigos
+xscale = 1;
 
 stun_timer = 0;
-
 
 estado_stun.inicia = function()
 {

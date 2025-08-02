@@ -28,8 +28,6 @@ estado_idle.roda = function()
 }
 
 
-
-
 #region Walk
 
 estado_walk.inicia = function()
@@ -38,9 +36,11 @@ estado_walk.inicia = function()
 	image_index = 0;
 	timer_estado = 200;
 
-//fazendo a patrulha
-postox = irandom(room_width);
-postoy = irandom(room_height);
+	//fazendo a patrulha
+	postox = irandom(room_width);
+	postoy = irandom(room_height);
+	
+	xscale = sign(postox - x)
 }
 
 estado_walk.roda = function()
@@ -70,6 +70,14 @@ estado_attack.inicia = function() {
 
 estado_attack.roda = function() {
 	
+	if (image_index >= image_number - .5) {
+		troca_estado(estado_idle);
+	}
+	
+}
+
+estado_attack.finaliza = function() {
+	alvo = noone
 }
 
 #endregion
@@ -100,6 +108,41 @@ estado_attack.roda = function() {
 		
 		// Seguindo meu alvo
 		mp_potential_step_object(alvo.x, alvo.y, 1,  obj_colisor);
+		
+		// Atacando Player
+		var _dist = point_distance(x, y, alvo.x, alvo.y);
+		
+		if (_dist <= 10) {
+			troca_estado(estado_attack);	
+		}
+		
+		xscale = sign(alvo.x - x);
+		
+		// Sistema Horda
+		
+		// Obtendo o número de inimigos nesse nível
+		var _n = instance_number(object_index);
+		
+		for (var i = 0; i <_n; i++) {
+			var _slime = instance_find(object_index, i);
+			
+			if(_slime != id) {
+				if(_slime.alvo != alvo) {
+					
+					// distancia do alvo
+					var _distSlimes = point_distance(x, y, _slime.x, _slime.y)
+					
+					if (_distSlimes < 80) {
+						// Mandando a ordem para seguir o alvo!
+						with(_slime) {
+						troca_estado(estado_hurt);
+						}
+					}
+					
+				}
+			}
+		}
+		
 	}
 
 #endregion
