@@ -1,0 +1,42 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"tl_RoomWalls",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":14,
+    "SerialiseWidth":27,
+    "TileCompressedData":[
+      -116,0,1,536870975,-51,0,5,79,0,268435654,0,268435671,-51,0,3,536871110,0,805306566,-122,0,2,83,84,-27,
+      0,
+    ],
+    "TileDataFormat":1,
+  },
+  "name":"tl_RoomWalls",
+  "out_columns":20,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Conjuntos de tiles",
+    "path":"folders/Conjuntos de tiles.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"RoomWalls",
+    "path":"sprites/RoomWalls/RoomWalls.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":32,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":32,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":391,
+}
