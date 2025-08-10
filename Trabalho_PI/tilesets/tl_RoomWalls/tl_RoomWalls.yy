@@ -4,15 +4,17 @@
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":14,
-    "SerialiseWidth":27,
+    "SerialiseWidth":31,
     "TileCompressedData":[
-      -116,0,5,536870975,0,805306408,0,805306407,-47,0,5,79,0,268435654,0,268435671,-51,0,3,536871110,0,805306566,
-      -122,0,2,83,84,-27,0,
+      -119,0,1,805306835,-3,0,1,536871379,-8,0,1,536870975,-3,0,1,805306407,-39,0,9,536871307,0,805306762,
+      0,536871453,0,536871379,0,805306835,-7,0,1,79,-9,0,3,805306989,0,536871533,-35,0,7,614,0,613,0,268435993,
+      0,537,-17,0,3,268436077,0,621,-35,0,7,536871526,0,805306982,0,805306905,0,536871449,-61,0,1,536871380,
+      -63,0,
     ],
     "TileDataFormat":1,
   },
   "name":"tl_RoomWalls",
-  "out_columns":20,
+  "out_columns":93,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -22,8 +24,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"RoomWalls",
-    "path":"sprites/RoomWalls/RoomWalls.yy",
+    "name":"Room_Builder_32x32",
+    "path":"sprites/Room_Builder_32x32/Room_Builder_32x32.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -38,5 +40,5 @@
   "tileWidth":32,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":391,
+  "tile_count":8588,
 }
