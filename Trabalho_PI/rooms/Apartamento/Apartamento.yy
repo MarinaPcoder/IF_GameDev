@@ -29,22 +29,23 @@
           -121,-2147483648,6,405,406,-2147483648,10,301,302,-10,-2147483648,6,421,422,383,26,317,318,-10,-2147483648,
           6,437,438,0,42,734,735,-14,-2147483648,2,750,751,-33,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tl_bathroom","path":"tilesets/tl_bathroom/tl_bathroom.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"SubQuarto","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"SubQuarto","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":0,"SerialiseWidth":0,"TileSerialiseData":[],},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"QuartoDecor","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"QuartoDecor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":16,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"QuartoDecor","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"QuartoDecor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":16,"TileCompressedData":[
           -4,0,9,1203,1204,1205,1453,0,1624,1625,1141,1136,-3,-2147483648,-4,0,30,1219,1220,1221,1469,0,1672,1673,
           1157,1152,930,931,-2147483648,0,0,-2147483648,-2147483648,1235,1236,1237,0,0,1688,1689,1188,1189,946,
           947,-2147483648,0,0,-4,-2147483648,-7,0,2,962,963,-7,-2147483648,-8,0,-2,-2147483648,-3,0,-7,-2147483648,
           -4,0,-2,-2147483648,-3,0,-9,-2147483648,-2,0,-2,-2147483648,-3,0,-13,-2147483648,-3,0,-77,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tl_bedroom","path":"tilesets/tl_bedroom/tl_bedroom.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"SubQuarto","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"SubQuarto","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":16,"TileCompressedData":[-58,-2147483648,4,1085,1087,1087,1086,-12,-2147483648,4,1101,1103,1103,1102,-130,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tl_bedroom","path":"tilesets/tl_bedroom/tl_bedroom.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"DecoracaoInterior","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"DecoracaoInterior","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":16,"TileCompressedData":[
           -4,0,-12,-2147483648,-12,0,-6,-2147483648,2,0,256,-8,0,-8,-2147483648,-8,0,-9,-2147483648,-7,0,-10,-2147483648,
           -6,0,-4,-2147483648,-2,0,4,-2147483648,0,0,-2147483648,-6,0,-4,-2147483648,-2,0,1,-2147483648,-7,0,-6,
           -2147483648,-10,0,-13,-2147483648,-2,0,-14,-2147483648,-2,0,-14,-2147483648,-2,0,-23,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"InterDecor","path":"tilesets/InterDecor/InterDecor.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"basement_1","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"basement_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":16,"TileCompressedData":[
-          -6,-2147483648,-3,0,-13,-2147483648,-3,0,-8,-2147483648,7,0,-2147483648,-2147483648,0,0,-2147483648,
-          0,-8,-2147483648,-8,0,-8,-2147483648,4,0,508,509,-2147483648,-4,0,-8,-2147483648,4,0,524,525,757,-5,
-          0,-119,-2147483648,
+          -6,-2147483648,-3,0,-8,-2147483648,5,12,-2147483648,44,-2147483648,-2147483648,-3,0,-8,-2147483648,7,
+          28,-2147483648,60,0,0,-2147483648,0,-8,-2147483648,-8,0,-8,-2147483648,4,0,508,509,-2147483648,-4,0,
+          -8,-2147483648,4,0,524,525,757,-5,0,-25,-2147483648,3,318,-2147483648,318,-13,-2147483648,3,334,-2147483648,
+          334,-75,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tl_basement","path":"tilesets/tl_basement/tl_basement.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"basement","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"basement","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":16,"TileCompressedData":[
           -6,-2147483648,-2,0,-9,-2147483648,4,3,4,5,-2147483648,-3,0,-9,-2147483648,4,19,20,36,-2147483648,-3,
