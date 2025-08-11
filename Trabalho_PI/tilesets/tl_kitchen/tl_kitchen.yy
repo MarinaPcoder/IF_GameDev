@@ -1,15 +1,15 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"tl_bathroom",
+  "%Name":"tl_kitchen",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":10,
-    "SerialiseWidth":8,
-    "TileCompressedData":[-67,0,5,1073742288,1073742272,0,1879048641,1879048657,-3,0,5,1073742289,1073742273,0,1879048640,1879048656,],
+    "SerialiseHeight":11,
+    "SerialiseWidth":7,
+    "TileCompressedData":[-60,0,2,1879048376,1879048392,-12,0,3,1073742331,0,1879048699,],
     "TileDataFormat":1,
   },
-  "name":"tl_bathroom",
-  "out_columns":30,
+  "name":"tl_kitchen",
+  "out_columns":28,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -19,8 +19,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Bathroom",
-    "path":"sprites/Bathroom/Bathroom.yy",
+    "name":"kitchen",
+    "path":"sprites/kitchen/kitchen.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -35,5 +35,5 @@
   "tileWidth":32,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":896,
+  "tile_count":784,
 }
