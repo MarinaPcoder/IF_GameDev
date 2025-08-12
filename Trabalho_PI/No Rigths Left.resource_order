@@ -70,6 +70,7 @@
     {"name":"spr_Jogador_idle_side","order":3,"path":"sprites/spr_Jogador_idle_side/spr_Jogador_idle_side.yy",},
     {"name":"spr_Jogador_walk_back","order":1,"path":"sprites/spr_Jogador_walk_back/spr_Jogador_walk_back.yy",},
     {"name":"spr_Jogador_walk_side","order":2,"path":"sprites/spr_Jogador_walk_side/spr_Jogador_walk_side.yy",},
+    {"name":"spr_nerd_idle","order":5,"path":"sprites/spr_nerd_idle/spr_nerd_idle.yy",},
     {"name":"spr_player_dano","order":5,"path":"sprites/spr_player_dano/spr_player_dano.yy",},
     {"name":"spr_porta_aberta","order":2,"path":"sprites/spr_porta_aberta/spr_porta_aberta.yy",},
     {"name":"spr_porta_desativada","order":1,"path":"sprites/spr_porta_desativada/spr_porta_desativada.yy",},
