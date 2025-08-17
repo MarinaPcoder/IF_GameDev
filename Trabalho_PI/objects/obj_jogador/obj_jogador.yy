@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Jogador_idle_front",
-    "path":"sprites/spr_Jogador_idle_front/spr_Jogador_idle_front.yy",
+    "name":"spr_nerd_idle_front",
+    "path":"sprites/spr_nerd_idle_front/spr_nerd_idle_front.yy",
   },
   "spriteMaskId":{
     "name":"spr_Jogador_idle_front",

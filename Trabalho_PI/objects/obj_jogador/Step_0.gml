@@ -1,5 +1,5 @@
 //Profundidade bacana
-depth = -y;
+//depth = -y;
 
 //Lendo os inputs do Player
 
