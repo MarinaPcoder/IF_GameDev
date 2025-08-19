@@ -53,13 +53,11 @@ estado_walk.roda = function()
 	dir = (point_direction(0,0,velx,vely) div 90);
 	
 	
-	
 	//Ajustando a esquerda e direita
 	if(velx != 0)
 	{
 		image_xscale = sign(velx)
 	}
-	
 	
 	
 	sprite_index = define_sprite(dir, spr_nerd_walk_side, spr_nerd_walk_back, spr_nerd_walk_front);
@@ -89,7 +87,7 @@ estado_walk.roda = function()
 
 estado_attack.inicia = function()
 {
-sprite_index = define_sprite(dir, spr_Jogador_attack_side, spr_Jogador_attack_front, spr_Jogador_attack_back);
+sprite_index = define_sprite(dir, spr_nerd_attack_side, spr_nerd_attack_front, spr_nerd_attack_back);
 image_index = 0;
 
 velx = 0;
@@ -99,14 +97,28 @@ vely = 0;
 //Criação do objeto dano
 var _x = x + lengthdir_x(16,dir*90);
 var _y = y + lengthdir_y(16,dir*90);
-meu_dano = instance_create_depth(_x,_y,depth,obj_dano);
 
+if dir = 0 {
+	meu_dano = instance_create_depth(_x,_y,depth,obj_dano_direita);
+}
+
+if dir = 1 {
+	meu_dano = instance_create_depth(_x,_y,depth,obj_dano_cima);
+}
+
+if dir = 2 {
+	meu_dano = instance_create_depth(_x,_y,depth,obj_dano_esquerda);
+}
+
+if dir = 3 {
+	meu_dano = instance_create_depth(_x,_y,depth,obj_dano_baixo);
+}
 
 }
 
 estado_attack.roda = function()
 {
-	if(image_index >= image_number - 0.2)
+	if(image_index >= image_number - 1)
 	{
 		if(up xor down or left xor right)
 		{
