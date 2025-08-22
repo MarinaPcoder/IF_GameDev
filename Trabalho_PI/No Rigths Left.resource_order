@@ -59,6 +59,7 @@
     {"name":"kitchen","order":12,"path":"sprites/kitchen/kitchen.yy",},
     {"name":"LivingRoom","order":8,"path":"sprites/LivingRoom/LivingRoom.yy",},
     {"name":"PortaAbrindo","order":13,"path":"sprites/PortaAbrindo/PortaAbrindo.yy",},
+    {"name":"Protagonista","order":4,"path":"sprites/Protagonista/Protagonista.yy",},
     {"name":"Room_Builder_32x32","order":6,"path":"sprites/Room_Builder_32x32/Room_Builder_32x32.yy",},
     {"name":"RoomWalls","order":1,"path":"sprites/RoomWalls/RoomWalls.yy",},
     {"name":"spr_aguaanim","order":1,"path":"sprites/spr_aguaanim/spr_aguaanim.yy",},
