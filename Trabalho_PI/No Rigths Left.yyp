@@ -59,6 +59,7 @@
   },
   "name":"No Rigths Left",
   "resources":[
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"obj_butao_2","path":"objects/obj_butao_2/obj_butao_2.yy",},},
     {"id":{"name":"obj_butao","path":"objects/obj_butao/obj_butao.yy",},},
     {"id":{"name":"obj_colisor","path":"objects/obj_colisor/obj_colisor.yy",},},
@@ -66,6 +67,7 @@
     {"id":{"name":"obj_dano_cima","path":"objects/obj_dano_cima/obj_dano_cima.yy",},},
     {"id":{"name":"obj_dano_direita","path":"objects/obj_dano_direita/obj_dano_direita.yy",},},
     {"id":{"name":"obj_dano_esquerda","path":"objects/obj_dano_esquerda/obj_dano_esquerda.yy",},},
+    {"id":{"name":"obj_dialog","path":"objects/obj_dialog/obj_dialog.yy",},},
     {"id":{"name":"obj_inimigo_01","path":"objects/obj_inimigo_01/obj_inimigo_01.yy",},},
     {"id":{"name":"obj_Inimigo_pai","path":"objects/obj_Inimigo_pai/obj_Inimigo_pai.yy",},},
     {"id":{"name":"obj_interagivel","path":"objects/obj_interagivel/obj_interagivel.yy",},},
@@ -92,6 +94,7 @@
     {"id":{"name":"spr_botao_ativado_2","path":"sprites/spr_botao_ativado_2/spr_botao_ativado_2.yy",},},
     {"id":{"name":"spr_botao_ativado","path":"sprites/spr_botao_ativado/spr_botao_ativado.yy",},},
     {"id":{"name":"spr_botao","path":"sprites/spr_botao/spr_botao.yy",},},
+    {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},},
     {"id":{"name":"spr_colisor","path":"sprites/spr_colisor/spr_colisor.yy",},},
     {"id":{"name":"spr_inimigo_chase_idle","path":"sprites/spr_inimigo_chase_idle/spr_inimigo_chase_idle.yy",},},
     {"id":{"name":"spr_inimigo_chase_stun","path":"sprites/spr_inimigo_chase_stun/spr_inimigo_chase_stun.yy",},},
