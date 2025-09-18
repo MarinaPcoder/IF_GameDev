@@ -147,9 +147,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Apartamento","path":"rooms/Apartamento/Apartamento.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Cidade","path":"rooms/Cidade/Cidade.yy",},},
+    {"roomId":{"name":"Apartamento","path":"rooms/Apartamento/Apartamento.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

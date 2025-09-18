@@ -23,6 +23,6 @@ estado_stun.roda = function()
 {
 	if(stun_timer = 0)
 	{
-		troca_estado(estado_hurt)
+		troca_estado(estado_walk)
 	}
 }
