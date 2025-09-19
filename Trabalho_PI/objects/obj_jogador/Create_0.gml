@@ -43,7 +43,7 @@ estado_walk.inicia = function()
 dir = (point_direction(0,0,right - left,down - up) div 90);
 
 //Definindo a sprite pela direção
-sprite_index = define_sprite(dir, spr_nerd_walk_side, spr_nerd_walk_back, spr_nerd_walk_front);
+sprite_index = define_sprite(dir, spr_nerd_walk_side, spr_nerd_walk_front, spr_nerd_walk_back);
 image_index = 0;
 }
 
@@ -60,7 +60,7 @@ estado_walk.roda = function()
 	}
 	
 	
-	sprite_index = define_sprite(dir, spr_nerd_walk_side, spr_nerd_walk_back, spr_nerd_walk_front);
+	sprite_index = define_sprite(dir, spr_nerd_walk_side, spr_nerd_walk_front, spr_nerd_walk_back);
 	
 
 	//Atribuindo inputs a velocidade
