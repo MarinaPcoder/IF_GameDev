@@ -96,7 +96,7 @@ estado_walk.roda = function()
 		if (_dy != 0) direcao_vertical = sign(_dy);
 		else direcao_vertical = 0;
 	}
-	mp_potential_step_object(postox, postoy, 1, obj_colisor);
+	mp_potential_step_object(postox, postoy, 1, all);
 	
 	// --- INÍCIO DA LÓGICA DE DETECÇÃO COM TIMER ---
 	var _alvo_encontrado = campo_visao(alcance_visao, abertura_visao);
@@ -187,7 +187,7 @@ estado_attack.finaliza = function() {
 		// --- FIM DA MODIFICAÇÃO DE DIREÇÃO ---
 	
 		// Seguindo meu alvo
-		mp_potential_step_object(alvo.x, alvo.y, 1, obj_colisor);
+		mp_potential_step_object(alvo.x, alvo.y, 1, all);
 	
 		// Atacando Player
 		var _dist = point_distance(x, y, alvo.x, alvo.y);

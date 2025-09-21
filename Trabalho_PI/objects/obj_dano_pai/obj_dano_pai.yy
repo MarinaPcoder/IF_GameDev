@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dano_direita",
+  "%Name":"obj_dano_pai",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Inimigo_pai","path":"objects/obj_Inimigo_pai/obj_Inimigo_pai.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"documento_pai","path":"objects/documento_pai/documento_pai.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_dano_direita",
+  "name":"obj_dano_pai",
   "overriddenProperties":[],
   "parent":{
     "name":"Coisa do Player",
     "path":"folders/Objetos/Coisa do Player.yy",
   },
-  "parentObjectId":{
-    "name":"obj_dano_pai",
-    "path":"objects/obj_dano_pai/obj_dano_pai.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_player_dano_direita",
-    "path":"sprites/spr_player_dano_direita/spr_player_dano_direita.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
