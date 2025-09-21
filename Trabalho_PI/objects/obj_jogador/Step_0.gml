@@ -27,6 +27,13 @@ if (alvo != noone) {
 }
 
 #endregion
+if(keyboard_check_pressed(vk_space))
+{
+	create_dialog([{name:"alala",
+		msg:"adadada"
+		}])
+}
+
 //Rodando a maquina de estado
 
 roda_estado();
