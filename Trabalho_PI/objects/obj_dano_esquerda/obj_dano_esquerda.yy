@@ -11,7 +11,10 @@
     "name":"Coisa do Player",
     "path":"folders/Objetos/Coisa do Player.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_dano_pai",
+    "path":"objects/obj_dano_pai/obj_dano_pai.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

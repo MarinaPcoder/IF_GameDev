@@ -43,7 +43,7 @@ estado_walk.inicia = function()
 dir = (point_direction(0,0,right - left,down - up) div 90);
 
 //Definindo a sprite pela direção
-sprite_index = define_sprite(dir, spr_nerd_walk_side, spr_nerd_walk_back, spr_nerd_walk_front);
+sprite_index = define_sprite(dir, spr_nerd_walk_side, spr_nerd_walk_front, spr_nerd_walk_back);
 image_index = 0;
 }
 
@@ -60,7 +60,7 @@ estado_walk.roda = function()
 	}
 	
 	
-	sprite_index = define_sprite(dir, spr_nerd_walk_side, spr_nerd_walk_back, spr_nerd_walk_front);
+	sprite_index = define_sprite(dir, spr_nerd_walk_side, spr_nerd_walk_front, spr_nerd_walk_back);
 	
 
 	//Atribuindo inputs a velocidade
@@ -100,18 +100,30 @@ var _y = y + lengthdir_y(16,dir*90);
 
 if dir = 0 {
 	meu_dano = instance_create_depth(_x,_y,depth,obj_dano_direita);
+	
+	// INFORMA AO ATAQUE QUEM O CRIOU. ESSA É A PARTE MAIS IMPORTANTE!
+    meu_dano.meu_criador = id; 
 }
 
 if dir = 1 {
 	meu_dano = instance_create_depth(_x,_y,depth,obj_dano_cima);
+	
+	// INFORMA AO ATAQUE QUEM O CRIOU. ESSA É A PARTE MAIS IMPORTANTE!
+    meu_dano.meu_criador = id; 
 }
 
 if dir = 2 {
 	meu_dano = instance_create_depth(_x,_y,depth,obj_dano_esquerda);
+	
+	// INFORMA AO ATAQUE QUEM O CRIOU. ESSA É A PARTE MAIS IMPORTANTE!
+    meu_dano.meu_criador = id; 
 }
 
 if dir = 3 {
 	meu_dano = instance_create_depth(_x,_y,depth,obj_dano_baixo);
+	
+	// INFORMA AO ATAQUE QUEM O CRIOU. ESSA É A PARTE MAIS IMPORTANTE!
+    meu_dano.meu_criador = id; 
 }
 
 }
@@ -129,13 +141,6 @@ estado_attack.roda = function()
 			troca_estado(estado_idle);
 		}
 	}
-}
-
-estado_attack.finaliza = function()
-{
-//Apaga o objeto dano
-instance_destroy(meu_dano);
-
 }
 
 #endregion
@@ -162,6 +167,10 @@ vel = 2;
 dir = 3;
 
 meu_dano = noone;
+
+// Documentos fotografados
+
+documentos_fotografados_nesta_fase = 0;
 
 #endregion
 
