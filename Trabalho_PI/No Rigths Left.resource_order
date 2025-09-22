@@ -110,7 +110,6 @@
     {"name":"spr_player_dano_esquerda","order":10,"path":"sprites/spr_player_dano_esquerda/spr_player_dano_esquerda.yy",},
     {"name":"spr_porta_aberta","order":2,"path":"sprites/spr_porta_aberta/spr_porta_aberta.yy",},
     {"name":"spr_porta_desativada","order":1,"path":"sprites/spr_porta_desativada/spr_porta_desativada.yy",},
-    {"name":"Sprite60","order":2,"path":"sprites/Sprite60/Sprite60.yy",},
     {"name":"InterDecor","order":2,"path":"tilesets/InterDecor/InterDecor.yy",},
     {"name":"tl_aguaanim","order":1,"path":"tilesets/tl_aguaanim/tl_aguaanim.yy",},
     {"name":"tl_basement_16x16","order":10,"path":"tilesets/tl_basement_16x16/tl_basement_16x16.yy",},
