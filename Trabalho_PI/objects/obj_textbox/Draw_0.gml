@@ -81,4 +81,4 @@ draw_sprite_ext(textb_spr, txtb_img, textbox_x + text_x_offset[page], textbox_y,
 //Desenhando o texto de fato
 
 var _drawtext = string_copy(text[page], 1, draw_char);
-draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y + border, _drawtext, line_sep, line_width);
+draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y + border, _drawtext, line_sep, line_width - border);
