@@ -99,28 +99,28 @@ var _x = x + lengthdir_x(16,dir*90);
 var _y = y + lengthdir_y(16,dir*90);
 
 if dir = 0 {
-	meu_dano = instance_create_depth(_x,_y,depth,obj_dano_direita);
+	meu_dano = instance_create_depth(_x,_y,depth-1,obj_dano_direita);
 	
 	// INFORMA AO ATAQUE QUEM O CRIOU. ESSA É A PARTE MAIS IMPORTANTE!
     meu_dano.meu_criador = id; 
 }
 
 if dir = 1 {
-	meu_dano = instance_create_depth(_x,_y,depth,obj_dano_cima);
+	meu_dano = instance_create_depth(_x,_y,depth-1,obj_dano_cima);
 	
 	// INFORMA AO ATAQUE QUEM O CRIOU. ESSA É A PARTE MAIS IMPORTANTE!
     meu_dano.meu_criador = id; 
 }
 
 if dir = 2 {
-	meu_dano = instance_create_depth(_x,_y,depth,obj_dano_esquerda);
+	meu_dano = instance_create_depth(_x,_y,depth-1,obj_dano_esquerda);
 	
 	// INFORMA AO ATAQUE QUEM O CRIOU. ESSA É A PARTE MAIS IMPORTANTE!
     meu_dano.meu_criador = id; 
 }
 
 if dir = 3 {
-	meu_dano = instance_create_depth(_x,_y,depth,obj_dano_baixo);
+	meu_dano = instance_create_depth(_x,_y,depth-1,obj_dano_baixo);
 	
 	// INFORMA AO ATAQUE QUEM O CRIOU. ESSA É A PARTE MAIS IMPORTANTE!
     meu_dano.meu_criador = id; 

@@ -1,5 +1,5 @@
 //Profundidade bacana
-//depth = -y;
+depth = -y;
 
 //Lendo os inputs do Player
 
@@ -19,7 +19,6 @@ var alvo = instance_place(x, y, obj_interagivel);
 
 if (alvo != noone) {
 
-    
     if (interact) {
         // Executa a função de interação
         alvo.interagivel = false;
