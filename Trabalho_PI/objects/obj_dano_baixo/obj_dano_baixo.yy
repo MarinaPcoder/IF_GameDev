@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_dano_baixo",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Inimigo_pai","path":"objects/obj_Inimigo_pai/obj_Inimigo_pai.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_dano_baixo",
   "overriddenProperties":[],
@@ -32,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_player_dano_baixo",
+    "path":"sprites/spr_player_dano_baixo/spr_player_dano_baixo.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
