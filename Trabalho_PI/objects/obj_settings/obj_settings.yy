@@ -9,8 +9,8 @@
   "name":"obj_settings",
   "overriddenProperties":[],
   "parent":{
-    "name":"Dialogo",
-    "path":"folders/Objetos/Dialogo.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":true,
