@@ -14,9 +14,9 @@ txtb_img_spd = 18/60;
 //Texto
 page = 0;
 page_number = 0;
-text[0] = "Ta funfando mesmo?";
-text[1] = "Deve ta ne";
-text[2] = "Ai que bom que tá funcionando";
+text[0] = "ta funfando mesmo?";
+text[1] = "deve ta ne";
+text[2] = "ai que bom que ta funcionando";
 text_length[0] = string_length(text[0]);
 draw_char = 0;
 text_spd = 1;
