@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_exclamacao_act",
+  "%Name":"spr_exclamacao_borda",
   "bboxMode":0,
   "bbox_bottom":28,
   "bbox_left":0,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e41b54cc-b837-4ef7-9867-1e68bff9fe56","name":"e41b54cc-b837-4ef7-9867-1e68bff9fe56","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"3ec7a79b-c8c1-4d30-938a-48085f546617","name":"3ec7a79b-c8c1-4d30-938a-48085f546617","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -21,7 +21,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"eea65fdb-bba8-4cbc-b779-6c5a63c76ef5","blendMode":0,"displayName":"default","isLocked":false,"name":"eea65fdb-bba8-4cbc-b779-6c5a63c76ef5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_exclamacao_act",
+  "name":"spr_exclamacao_borda",
   "nineSlice":null,
   "origin":7,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_exclamacao_act",
+    "%Name":"spr_exclamacao_borda",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_exclamacao_act",
+    "name":"spr_exclamacao_borda",
     "playback":1,
     "playbackSpeed":15.0,
     "playbackSpeedType":0,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e41b54cc-b837-4ef7-9867-1e68bff9fe56","path":"sprites/spr_exclamacao_act/spr_exclamacao_act.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0283dc23-e495-4c8a-b98a-206394dbc447","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3ec7a79b-c8c1-4d30-938a-48085f546617","path":"sprites/spr_exclamacao_borda/spr_exclamacao_borda.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7672f86a-8be1-468b-9ef8-dbf32979b74e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

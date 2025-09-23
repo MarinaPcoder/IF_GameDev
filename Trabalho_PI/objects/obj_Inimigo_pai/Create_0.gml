@@ -20,9 +20,10 @@ alvo = noone;
 direcao_vertical = 0; // -1 para cima, 0 para horizontal, 1 para baixo
 
 // Define o tempo necessário para detectar (ex: 2 segundos)
-tempo_para_detectar = game_get_speed(gamespeed_fps) / 1.5; 
+tempo_para_detectar = game_get_speed(gamespeed_fps) / 0.5; 
 // Timer que fará a contagem regressiva
 timer_deteccao = tempo_para_detectar;
+
 
 estado_stun.inicia = function()
 {
