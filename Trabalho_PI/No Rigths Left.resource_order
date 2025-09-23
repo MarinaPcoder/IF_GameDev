@@ -24,6 +24,7 @@
     {"name":"AssetIT","order":6,"path":"folders/Sprites/AssetIT.yy",},
     {"name":"Exterior","order":14,"path":"folders/Sprites/AssetIT/Exterior.yy",},
     {"name":"Inimigos","order":4,"path":"folders/Sprites/Inimigos.yy",},
+    {"name":"Fase1","order":6,"path":"folders/Sprites/Inimigos/Fase1.yy",},
     {"name":"Patrulha","order":5,"path":"folders/Sprites/Inimigos/Patrulha.yy",},
     {"name":"Idle","order":1,"path":"folders/Sprites/Inimigos/Patrulha/Idle.yy",},
     {"name":"Stun","order":3,"path":"folders/Sprites/Inimigos/Patrulha/Stun.yy",},

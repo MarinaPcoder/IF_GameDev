@@ -35,6 +35,7 @@
     {"$GMFolder":"","%Name":"AssetIT","folderPath":"folders/Sprites/AssetIT.yy","name":"AssetIT","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Exterior","folderPath":"folders/Sprites/AssetIT/Exterior.yy","name":"Exterior","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Inimigos","folderPath":"folders/Sprites/Inimigos.yy","name":"Inimigos","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Fase1","folderPath":"folders/Sprites/Inimigos/Fase1.yy","name":"Fase1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Patrulha","folderPath":"folders/Sprites/Inimigos/Patrulha.yy","name":"Patrulha","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Idle","folderPath":"folders/Sprites/Inimigos/Patrulha/Idle.yy","name":"Idle","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Stun","folderPath":"folders/Sprites/Inimigos/Patrulha/Stun.yy","name":"Stun","resourceType":"GMFolder","resourceVersion":"2.0",},

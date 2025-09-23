@@ -2,18 +2,17 @@ draw_sprite_ext(sprite_index, image_index, x, y, xscale, image_yscale, image_ang
 
 // Evento Draw do obj_inimigo
 
-// 2. Condição para desenhar o indicador
+
 if (timer_deteccao < tempo_para_detectar and estado_atual != estado_hurt and estado_atual != estado_stun and estado_atual != estado_attack)
 {
     // --- POSICIONAMENTO ---
-    var _offset_y = 8; // Distância extra acima do sprite.
+	
+    var _offset_y = 8; 
     var _draw_x = x;
     var _draw_y = y - sprite_height - _offset_y;
 
-    // --- CÁLCULO DE PREENCHIMENTO SEGURO ---
 
-    // A CORREÇÃO CRUCIAL ESTÁ AQUI: Usamos clamp()
-    // Isso garante que o progresso sempre ficará entre 0.0 e 1.0, evitando o bug.
+    // Isso garante que o progresso sempre ficará entre 0.0 e 1, evitando o bug.
     var _progresso = clamp(1.0 - (timer_deteccao / tempo_para_detectar), 0, 1);
     
     // Pega as dimensões do sprite de preenchimento (o vermelho)
