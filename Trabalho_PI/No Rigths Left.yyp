@@ -97,6 +97,7 @@
     {"id":{"name":"Cidade","path":"rooms/Cidade/Cidade.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"SalaDeTeste","path":"rooms/SalaDeTeste/SalaDeTeste.yy",},},
+    {"id":{"name":"scr_textbox_functions","path":"scripts/scr_textbox_functions/scr_textbox_functions.yy",},},
     {"id":{"name":"State_machine","path":"scripts/State_machine/State_machine.yy",},},
     {"id":{"name":"Basement","path":"sprites/Basement/Basement.yy",},},
     {"id":{"name":"Bathroom","path":"sprites/Bathroom/Bathroom.yy",},},

@@ -64,6 +64,7 @@
     {"name":"Apartamento","order":1,"path":"rooms/Apartamento/Apartamento.yy",},
     {"name":"Cidade","order":2,"path":"rooms/Cidade/Cidade.yy",},
     {"name":"Menu","order":3,"path":"rooms/Menu/Menu.yy",},
+    {"name":"scr_textbox_functions","order":1,"path":"scripts/scr_textbox_functions/scr_textbox_functions.yy",},
     {"name":"Basement","order":11,"path":"sprites/Basement/Basement.yy",},
     {"name":"Bathroom","order":10,"path":"sprites/Bathroom/Bathroom.yy",},
     {"name":"Capa","order":2,"path":"sprites/Capa/Capa.yy",},

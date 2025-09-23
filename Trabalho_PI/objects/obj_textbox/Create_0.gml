@@ -14,10 +14,7 @@ txtb_img_spd = 18/60;
 //Texto
 page = 0;
 page_number = 0;
-text[0] = "ABCDEFGHIJKLMNOPQRSTUVWXYZZ ZZZZZZZZZZZZZ?";
-text[1] = "0123456789";
-text[2] = "abcdefghijklmnopqrstuvwxyz";
-text[3] = "Palavras bonitas"
+text[0] = "";
 text_length[0] = string_length(text[0]);
 draw_char = 0;
 text_spd = 1;
