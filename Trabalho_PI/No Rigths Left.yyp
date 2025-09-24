@@ -20,6 +20,7 @@
     {"$GMFolder":"","%Name":"Linhas do tempo","folderPath":"folders/Linhas do tempo.yy","name":"Linhas do tempo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Coisa do Player","folderPath":"folders/Objetos/Coisa do Player.yy","name":"Coisa do Player","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Coisas_dialogo","folderPath":"folders/Objetos/Coisas_dialogo.yy","name":"Coisas_dialogo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Controlador","folderPath":"folders/Objetos/Controlador.yy","name":"Controlador","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Entities","folderPath":"folders/Objetos/Entities.yy","name":"Entities","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Inimigos","folderPath":"folders/Objetos/Entities/Inimigos.yy","name":"Inimigos","resourceType":"GMFolder","resourceVersion":"2.0",},

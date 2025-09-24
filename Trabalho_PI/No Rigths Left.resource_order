@@ -10,10 +10,14 @@
     {"name":"Linhas do tempo","order":8,"path":"folders/Linhas do tempo.yy",},
     {"name":"Objetos","order":9,"path":"folders/Objetos.yy",},
     {"name":"Coisa do Player","order":3,"path":"folders/Objetos/Coisa do Player.yy",},
+    {"name":"Coisas_dialogo","order":11,"path":"folders/Objetos/Coisas_dialogo.yy",},
     {"name":"Controlador","order":8,"path":"folders/Objetos/Controlador.yy",},
     {"name":"Entities","order":5,"path":"folders/Objetos/Entities.yy",},
     {"name":"Inimigos","order":1,"path":"folders/Objetos/Entities/Inimigos.yy",},
+<<<<<<< Updated upstream
     {"name":"PolicialA","order":2,"path":"folders/Objetos/Entities/Inimigos/PolicialA.yy",},
+=======
+>>>>>>> Stashed changes
     {"name":"Interface","order":7,"path":"folders/Objetos/Interface.yy",},
     {"name":"Level elements","order":6,"path":"folders/Objetos/Level elements.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
