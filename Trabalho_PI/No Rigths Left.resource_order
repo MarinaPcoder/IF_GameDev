@@ -102,6 +102,7 @@
     {"name":"PortaAbrindo","order":10,"path":"sprites/PortaAbrindo/PortaAbrindo.yy",},
     {"name":"Protagonista","order":4,"path":"sprites/Protagonista/Protagonista.yy",},
     {"name":"Room_Builder_32x32","order":6,"path":"sprites/Room_Builder_32x32/Room_Builder_32x32.yy",},
+    {"name":"Room_Builder_32x32","order":3,"path":"sprites/Room_Builder_32x32/Room_Builder_32x32.yy",},
     {"name":"RoomWalls","order":1,"path":"sprites/RoomWalls/RoomWalls.yy",},
     {"name":"SensorPassagem","order":3,"path":"sprites/SensorPassagem/SensorPassagem.yy",},
     {"name":"spr_aguaanim","order":1,"path":"sprites/spr_aguaanim/spr_aguaanim.yy",},
