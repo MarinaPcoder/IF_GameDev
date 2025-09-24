@@ -9,7 +9,10 @@
     "name":"PolicialA",
     "path":"folders/Objetos/Entities/Inimigos/PolicialA.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_Inimigo_pai",
+    "path":"objects/obj_Inimigo_pai/obj_Inimigo_pai.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
