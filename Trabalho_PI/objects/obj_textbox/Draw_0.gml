@@ -75,6 +75,8 @@ var _txtb_y = textbox_y
 txtb_img += txtb_img_spd;
 var txtb_spr_w = sprite_get_width(textb_spr);
 var txtb_spr_h = sprite_get_height(textb_spr);
+var txtbo_spr_w = sprite_get_width(textbo_spr);
+var txtbo_spr_h = sprite_get_height(textbo_spr);
 
 //Desenhando o fundo da textbox seja lá oque for
 
@@ -86,15 +88,15 @@ draw_sprite_ext(textb_spr, txtb_img,_txtb_x ,_txtb_y , textbox_width/txtb_spr_w,
 if(draw_char == text_length[page] && page == page_number -1)
 {
 	//desenhando as opções
-	var _op_space = 20;
-	var _op_bord = 6;
+	var _op_space = 15;
+	var _op_bord = 4;
 	for (var op = 0; op < option_number; op++)
 	{
 		
 		//caixa de opções
 		
 		var _o_w = string_width(option[op]) + _op_bord * 2;
-		draw_sprite_ext(textbo_spr, txtbo_img, _txtb_x, _txtb_y - _op_space * option_number + _op_space * op, _o_w / txtb_spr_w, (_op_space - 1)/txtb_spr_h, 0, c_white, 1)
+		draw_sprite_ext(textbo_spr, txtbo_img, _txtb_x, _txtb_y - _op_space * option_number + _op_space * op, _o_w / txtbo_spr_w, (_op_space - 1)/txtbo_spr_h, 0, c_white, 1)
 		
 		// o texto da opção
 		draw_text(_txtb_x +  _op_bord , _txtb_y - _op_space * option_number + _op_space * op +2, option[op]);
