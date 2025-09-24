@@ -9,8 +9,8 @@
   "name":"obj_textbox",
   "overriddenProperties":[],
   "parent":{
-    "name":"Coisas_dialogo",
-    "path":"folders/Objetos/Coisas_dialogo.yy",
+    "name":"Dialogo",
+    "path":"folders/Objetos/Dialogo.yy",
   },
   "parentObjectId":null,
   "persistent":false,
