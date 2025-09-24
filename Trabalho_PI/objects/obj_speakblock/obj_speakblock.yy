@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_settings",
+  "%Name":"obj_speakblock",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_settings",
+  "name":"obj_speakblock",
   "overriddenProperties":[],
   "parent":{
     "name":"Coisas_dialogo",
     "path":"folders/Objetos/Coisas_dialogo.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_speakblock",
+    "path":"sprites/spr_speakblock/spr_speakblock.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
