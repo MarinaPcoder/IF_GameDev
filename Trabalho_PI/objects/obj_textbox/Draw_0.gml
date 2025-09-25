@@ -106,7 +106,7 @@ if(draw_char == text_length[page] && page == page_number -1)
 		//caixa de opções
 		
 		var _o_w = string_width(option[op]) + _op_bord * 2;
-		draw_sprite(textbo_spr, txtbo_img, _txtb_x + 16, _txtb_y - _op_space * option_number + _op_space * op)
+		draw_sprite_ext(textbo_spr, txtbo_img, _txtb_x + 16, _txtb_y - _op_space * option_number + _op_space * op, _o_w / txtbo_spr_w, (_op_space - 1)/txtbo_spr_h, 0, c_white, 1)
 		
 		
 		//Seta

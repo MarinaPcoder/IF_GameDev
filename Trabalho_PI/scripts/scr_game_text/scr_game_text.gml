@@ -13,7 +13,7 @@ function scr_game_text(_text_id){
 break;
 
 case "Resposta":
-    scr_text("Precisamos de provas. Nada de supicões. Voce vai comecar pelas ruas centrais.")
+    scr_text("Precisamos de provas. Nada de suposicoes. Voce vai comecar pelas ruas centrais.")
     scr_text("Registre tudo: fotos, videos, audios. Cada detalhe conta. Se conseguirmos expor o que esta acontecendo, talvez ainda haja chance de impedir algo maior");
     scr_option("E a segurança? Os guardas sempre patrulham.", "Questionado");
     scr_option("Entendido. Provas primeiro, perguntas depois", "Concluido");    
