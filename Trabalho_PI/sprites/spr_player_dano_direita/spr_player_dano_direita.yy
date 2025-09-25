@@ -28,7 +28,7 @@
   "origin":3,
   "parent":{
     "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "path":"folders/Objetos/Level elements/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

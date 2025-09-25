@@ -56,7 +56,7 @@
   "origin":9,
   "parent":{
     "name":"Idle",
-    "path":"folders/Sprites/Jogador/Idle.yy",
+    "path":"folders/Objetos/Level elements/Sprites/Jogador/Idle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

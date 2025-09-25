@@ -31,7 +31,7 @@
   "origin":9,
   "parent":{
     "name":"idle",
-    "path":"folders/Sprites/Inimigos/Perseguidor/idle.yy",
+    "path":"folders/Objetos/Level elements/Sprites/Inimigos/Perseguidor/idle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

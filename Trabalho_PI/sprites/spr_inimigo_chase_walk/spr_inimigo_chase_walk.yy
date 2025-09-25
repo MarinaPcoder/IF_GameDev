@@ -31,7 +31,7 @@
   "origin":9,
   "parent":{
     "name":"walk",
-    "path":"folders/Sprites/Inimigos/Perseguidor/walk.yy",
+    "path":"folders/Objetos/Level elements/Sprites/Inimigos/Perseguidor/walk.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

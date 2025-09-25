@@ -23,8 +23,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"ExterioresGeral",
-    "path":"sprites/ExterioresGeral/ExterioresGeral.yy",
+    "name":"ExteriorGeral",
+    "path":"sprites/ExteriorGeral/ExteriorGeral.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

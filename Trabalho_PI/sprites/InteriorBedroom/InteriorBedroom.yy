@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"AssetIT",
-    "path":"folders/Sprites/AssetIT.yy",
+    "path":"folders/Objetos/Level elements/Sprites/AssetIT.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

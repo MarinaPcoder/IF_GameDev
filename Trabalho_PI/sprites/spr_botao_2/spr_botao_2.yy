@@ -27,7 +27,7 @@
   "origin":4,
   "parent":{
     "name":"Interativos",
-    "path":"folders/Sprites/Level elements/Interativos.yy",
+    "path":"folders/Objetos/Level elements/Sprites/Level elements/Interativos.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

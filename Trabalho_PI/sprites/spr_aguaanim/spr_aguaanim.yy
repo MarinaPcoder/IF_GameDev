@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Tijolos",
-    "path":"folders/Sprites/Tijolos.yy",
+    "path":"folders/Objetos/Level elements/Sprites/Tijolos.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

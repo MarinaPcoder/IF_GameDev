@@ -31,7 +31,7 @@
   "origin":7,
   "parent":{
     "name":"stun",
-    "path":"folders/Sprites/Inimigos/Perseguidor/stun.yy",
+    "path":"folders/Objetos/Level elements/Sprites/Inimigos/Perseguidor/stun.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

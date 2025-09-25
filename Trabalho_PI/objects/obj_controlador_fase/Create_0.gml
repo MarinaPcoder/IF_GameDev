@@ -10,7 +10,7 @@ info_fases = ds_map_create();
 // Agora, adicione as informações de cada fase que você tem.
 // Use o NOME EXATO do seu asset de Room (ex: rm_floresta, rm_castelo).
 ds_map_add(info_fases, SalaDeTeste, 3); // A fase "rm_fase_1" tem 3 documentos.
-
+ds_map_add(info_fases, Cidade, 5);
 // Adicione uma linha para cada fase do seu jogo!
 
 show_debug_message("Controlador de Fase criado com sucesso!");

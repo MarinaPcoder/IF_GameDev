@@ -31,7 +31,7 @@
   "origin":7,
   "parent":{
     "name":"Walk",
-    "path":"folders/Sprites/Jogador/Walk.yy",
+    "path":"folders/Objetos/Level elements/Sprites/Jogador/Walk.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -45,7 +45,7 @@
   "origin":0,
   "parent":{
     "name":"Coisas de dialogo",
-    "path":"folders/Sprites/Level elements/Coisas de dialogo.yy",
+    "path":"folders/Objetos/Level elements/Sprites/Level elements/Coisas de dialogo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Porta",
-    "path":"folders/Sprites/Level elements/Porta.yy",
+    "path":"folders/Objetos/Level elements/Sprites/Level elements/Porta.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

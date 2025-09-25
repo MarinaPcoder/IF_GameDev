@@ -169,8 +169,8 @@ dir = 3;
 meu_dano = noone;
 
 // Documentos fotografados
-
 documentos_fotografados_nesta_fase = 0;
+
 
 #endregion
 

@@ -26,7 +26,7 @@
   "origin":7,
   "parent":{
     "name":"idle",
-    "path":"folders/Sprites/Inimigos/Policiais/A/idle.yy",
+    "path":"folders/Objetos/Level elements/Sprites/Inimigos/Policiais/A/idle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
