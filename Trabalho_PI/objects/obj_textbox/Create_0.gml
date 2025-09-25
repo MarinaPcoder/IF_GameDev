@@ -12,7 +12,7 @@ txtb_img = 0;
 txtb_img_spd = 18/60;
 textbo_spr = Sprite63;
 txtbo_img = 0;
-
+txt_adad = 0;
 
 //Texto
 page = 0
