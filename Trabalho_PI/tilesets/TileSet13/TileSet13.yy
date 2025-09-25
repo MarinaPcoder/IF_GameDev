@@ -1,18 +1,13 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"tl_exteriores",
-  "autoTileSets":[
-    {"$GMAutoTileSet":"","%Name":"Grama","closed_edge":true,"name":"Grama","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[404,762,759,229,234,403,0,227,231,0,406,230,581,579,582,584,],},
-    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
-        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-      ],},
-  ],
+  "%Name":"TileSet13",
+  "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"tl_exteriores",
+  "name":"TileSet13",
   "out_columns":282,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -23,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"ExterioresGeral",
-    "path":"sprites/ExterioresGeral/ExterioresGeral.yy",
+    "name":"Spr_test",
+    "path":"sprites/Spr_test/Spr_test.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

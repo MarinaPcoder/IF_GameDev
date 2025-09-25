@@ -28,7 +28,7 @@
   "origin":7,
   "parent":{
     "name":"Attacks",
-    "path":"folders/Objetos/Level elements/Sprites/Jogador/Attacks.yy",
+    "path":"folders/Sprites/Jogador/Attacks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

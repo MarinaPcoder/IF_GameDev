@@ -26,7 +26,7 @@
   "origin":7,
   "parent":{
     "name":"Interface",
-    "path":"folders/Objetos/Level elements/Sprites/Interface.yy",
+    "path":"folders/Sprites/Interface.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

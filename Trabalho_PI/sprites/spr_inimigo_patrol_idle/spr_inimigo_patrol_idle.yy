@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Idle",
-    "path":"folders/Objetos/Level elements/Sprites/Inimigos/Patrulha/Idle.yy",
+    "path":"folders/Sprites/Inimigos/Patrulha/Idle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

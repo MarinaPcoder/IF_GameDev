@@ -29,7 +29,7 @@
   "origin":7,
   "parent":{
     "name":"stun",
-    "path":"folders/Objetos/Level elements/Sprites/Inimigos/Policiais/A/stun.yy",
+    "path":"folders/Sprites/Inimigos/Policiais/A/stun.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

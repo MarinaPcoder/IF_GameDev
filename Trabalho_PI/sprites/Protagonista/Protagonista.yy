@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Jogador",
-    "path":"folders/Objetos/Level elements/Sprites/Jogador.yy",
+    "path":"folders/Sprites/Jogador.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

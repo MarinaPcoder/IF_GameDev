@@ -40,7 +40,7 @@
   "origin":9,
   "parent":{
     "name":"Attack",
-    "path":"folders/Objetos/Level elements/Sprites/Inimigos/Perseguidor/Attack.yy",
+    "path":"folders/Sprites/Inimigos/Perseguidor/Attack.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,5 +1,4 @@
 {
-<<<<<<< Updated upstream
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"PolicialA","order":2,"path":"objects/PolicialA/PolicialA.yy",},
@@ -9,27 +8,5 @@
     {"name":"Apartamento_3","order":3,"path":"rooms/Apartamento_3/Apartamento_3.yy",},
     {"name":"spr_policialA_stun","order":1,"path":"sprites/spr_policialA_stun/spr_policialA_stun.yy",},
     {"name":"Sprite79","order":1,"path":"sprites/Sprite79/Sprite79.yy",},
-=======
-  "FolderOrderSettings":[
-    {"name":"Sprites","order":9,"path":"folders/Objetos/Level elements/Sprites.yy",},
-  ],
-  "ResourceOrderSettings":[
-    {"name":"documento_militar","order":1,"path":"objects/documento_militar/documento_militar.yy",},
-    {"name":"obj_butao_2","order":8,"path":"objects/obj_butao_2/obj_butao_2.yy",},
-    {"name":"obj_butao","order":6,"path":"objects/obj_butao/obj_butao.yy",},
-    {"name":"obj_colisor","order":7,"path":"objects/obj_colisor/obj_colisor.yy",},
-    {"name":"obj_interagivel","order":2,"path":"objects/obj_interagivel/obj_interagivel.yy",},
-    {"name":"obj_porta_2","order":4,"path":"objects/obj_porta_2/obj_porta_2.yy",},
-    {"name":"obj_porta","order":3,"path":"objects/obj_porta/obj_porta.yy",},
-    {"name":"SensorDePassagem","order":5,"path":"objects/SensorDePassagem/SensorDePassagem.yy",},
-    {"name":"Cidade","order":1,"path":"rooms/Cidade/Cidade.yy",},
-    {"name":"Teste","order":2,"path":"rooms/Teste/Teste.yy",},
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
   ],
 }

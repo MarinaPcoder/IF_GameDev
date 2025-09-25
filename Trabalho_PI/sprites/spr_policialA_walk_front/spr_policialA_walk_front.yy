@@ -31,7 +31,7 @@
   "origin":7,
   "parent":{
     "name":"walk",
-    "path":"folders/Objetos/Level elements/Sprites/Inimigos/Policiais/A/walk.yy",
+    "path":"folders/Sprites/Inimigos/Policiais/A/walk.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
