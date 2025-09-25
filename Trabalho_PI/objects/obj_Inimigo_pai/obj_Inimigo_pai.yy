@@ -33,6 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":null,
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_policialA_idle_front",
+    "path":"sprites/spr_policialA_idle_front/spr_policialA_idle_front.yy",
+  },
   "visible":true,
 }

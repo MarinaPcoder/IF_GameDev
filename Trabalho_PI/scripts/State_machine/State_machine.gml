@@ -72,3 +72,13 @@ var _sprite;
 	return _sprite
 
 }
+
+/// @function get_dir(xscale, direcao_vertical)
+/// @return 0=direita, 1=cima, 2=esquerda, 3=baixo
+function get_dir(_xscale, _dirV) {
+    if (_dirV == -1) return 1; // cima
+    if (_dirV == 1)  return 3; // baixo
+    if (_xscale == 1) return 0; // direita
+    if (_xscale == -1) return 2; // esquerda
+    return 3; // default = baixo
+}

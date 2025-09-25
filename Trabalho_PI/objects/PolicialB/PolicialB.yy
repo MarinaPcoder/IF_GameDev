@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"PolicialA",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"PolicialB",
+  "eventList":[],
   "managed":true,
-  "name":"PolicialA",
+  "name":"PolicialB",
   "overriddenProperties":[],
   "parent":{
     "name":"Policia",
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_policialA_idle_front",
-    "path":"sprites/spr_policialA_idle_front/spr_policialA_idle_front.yy",
+    "name":"spr_policialB_idle_front",
+    "path":"sprites/spr_policialB_idle_front/spr_policialB_idle_front.yy",
   },
   "spriteMaskId":null,
   "visible":true,

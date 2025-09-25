@@ -37,12 +37,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_inimigo_chase_idle",
-    "path":"sprites/spr_inimigo_chase_idle/spr_inimigo_chase_idle.yy",
+    "name":"spr_policialA_idle_front",
+    "path":"sprites/spr_policialA_idle_front/spr_policialA_idle_front.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_inimigo_chase_idle",
-    "path":"sprites/spr_inimigo_chase_idle/spr_inimigo_chase_idle.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

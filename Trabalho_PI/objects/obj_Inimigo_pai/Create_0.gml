@@ -1,3 +1,4 @@
+
 estado_idle = new estado();
 estado_stun = new estado();
 estado_walk = new estado();
@@ -5,6 +6,7 @@ estado_attack = new estado();
 estado_hurt = new estado();
 estado_atual = estado_idle;
 estado_atual.inicia();
+
 
 // Variaveis comuns a todos os inimigos
 xscale = 1;
@@ -45,7 +47,8 @@ estado_stun.roda = function()
 
 estado_idle.inicia = function()
 {
-	sprite_index = _sprite_parado;
+	dir = get_dir(xscale, direcao_vertical);
+	sprite_index = define_sprite(dir, sprite_idle_side, sprite_idle_front, sprite_idle_back);
 	image_index = 0;
 	timer_estado = 300;
 }
@@ -93,7 +96,8 @@ estado_idle.roda = function()
 
 estado_walk.inicia = function()
 {
-	sprite_index = _sprite_walk;
+	dir = get_dir(xscale, direcao_vertical);
+	sprite_index = define_sprite(dir, sprite_walk_side, sprite_walk_front, sprite_walk_back);
 	image_index = 0;
 	timer_estado = 200;
 
@@ -180,7 +184,8 @@ estado_attack.finaliza = function() {
 #region estado_hurt
 	
 	estado_hurt.inicia = function() {
-		sprite_index = _sprite_walk;
+		dir = get_dir(xscale, direcao_vertical);
+		sprite_index = define_sprite(dir, sprite_walk_side, sprite_walk_front, sprite_walk_back);
 		image_index = 0;
 		
 		if (instance_exists(obj_jogador)) {

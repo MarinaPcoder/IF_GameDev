@@ -1,6 +1,12 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"PolicialA","order":2,"path":"objects/PolicialA/PolicialA.yy",},
+    {"name":"PolicialB","order":1,"path":"objects/PolicialB/PolicialB.yy",},
+    {"name":"Apartamento_1","order":1,"path":"rooms/Apartamento_1/Apartamento_1.yy",},
+    {"name":"Apartamento_2","order":2,"path":"rooms/Apartamento_2/Apartamento_2.yy",},
+    {"name":"Apartamento_3","order":3,"path":"rooms/Apartamento_3/Apartamento_3.yy",},
+    {"name":"spr_policialA_stun","order":1,"path":"sprites/spr_policialA_stun/spr_policialA_stun.yy",},
     {"name":"Sprite79","order":1,"path":"sprites/Sprite79/Sprite79.yy",},
   ],
 }

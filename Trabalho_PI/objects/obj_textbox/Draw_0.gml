@@ -1,6 +1,6 @@
 var accept_key = keyboard_check_pressed(ord("E"));
 var textbox_x = camera_get_view_x(view_camera[0]);
-var textbox_y = camera_get_view_y(view_camera[0]) + 144;
+var textbox_y = camera_get_view_y(view_camera[0]) + 84;
 
 //setup
 if setup == false
@@ -17,7 +17,7 @@ if setup == false
 		//Armazena quantos caracteres existem em cada página no "Text_length array"
 		text_length[p] = string_length(text[p]);
 		
-		text_x_offset[p] = 60;
+		text_x_offset[p] = 96;
         
     }
 }

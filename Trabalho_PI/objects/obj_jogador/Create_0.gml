@@ -174,6 +174,10 @@ documentos_fotografados_nesta_fase = 0;
 
 #endregion
 
+//Var de reset
+x_inicial = x;
+y_inicial = y;
+
 
 //Iniciando a maquina de estado
 inicia_estado(estado_idle);
