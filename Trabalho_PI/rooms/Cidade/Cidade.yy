@@ -12590,8 +12590,12 @@
 <<<<<<< Updated upstream
     {"hborder":128,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":{"name":"obj_jogador","path":"objects/obj_jogador/obj_jogador.yy",},"vborder":128,"visible":true,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+<<<<<<< Updated upstream
 =======
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":80,"hport":400,"hspeed":-2,"hview":400,"inherit":false,"objectId":{"name":"obj_jogador","path":"objects/obj_jogador/obj_jogador.yy",},"vborder":80,"visible":true,"vspeed":-2,"wport":600,"wview":600,"xport":32,"xview":32,"yport":32,"yview":32,},
+>>>>>>> Stashed changes
+=======
     {"hborder":80,"hport":400,"hspeed":-2,"hview":400,"inherit":false,"objectId":{"name":"obj_jogador","path":"objects/obj_jogador/obj_jogador.yy",},"vborder":80,"visible":true,"vspeed":-2,"wport":600,"wview":600,"xport":32,"xview":32,"yport":32,"yview":32,},
 >>>>>>> Stashed changes
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
@@ -12604,7 +12608,11 @@
   "viewSettings":{
     "clearDisplayBuffer":true,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "clearViewBackground":false,
+=======
+    "clearViewBackground":true,
+>>>>>>> Stashed changes
 =======
     "clearViewBackground":true,
 >>>>>>> Stashed changes

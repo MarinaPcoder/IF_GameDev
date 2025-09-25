@@ -24,6 +24,9 @@
     {"name":"SensorDePassagem","order":5,"path":"objects/SensorDePassagem/SensorDePassagem.yy",},
     {"name":"Cidade","order":1,"path":"rooms/Cidade/Cidade.yy",},
     {"name":"Teste","order":2,"path":"rooms/Teste/Teste.yy",},
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   ],
 }

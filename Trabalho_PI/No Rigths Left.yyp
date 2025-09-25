@@ -34,6 +34,7 @@
     {"$GMFolder":"","%Name":"Shaders","folderPath":"folders/Shaders.yy","name":"Shaders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sons","folderPath":"folders/Sons.yy","name":"Sons","resourceType":"GMFolder","resourceVersion":"2.0",},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"AssetIT","folderPath":"folders/Sprites/AssetIT.yy","name":"AssetIT","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Exterior","folderPath":"folders/Sprites/AssetIT/Exterior.yy","name":"Exterior","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -69,6 +70,8 @@
     {"$GMFolder":"","%Name":"teste","folderPath":"folders/Sprites/teste.yy","name":"teste","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tijolos","folderPath":"folders/Sprites/Tijolos.yy","name":"Tijolos","resourceType":"GMFolder","resourceVersion":"2.0",},
 =======
+=======
+>>>>>>> Stashed changes
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Objetos/Level elements/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"AssetIT","folderPath":"folders/Objetos/Level elements/Sprites/AssetIT.yy","name":"AssetIT","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Exterior","folderPath":"folders/Objetos/Level elements/Sprites/AssetIT/Exterior.yy","name":"Exterior","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -103,6 +106,9 @@
     {"$GMFolder":"","%Name":"Porta","folderPath":"folders/Objetos/Level elements/Sprites/Level elements/Porta.yy","name":"Porta","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"teste","folderPath":"folders/Objetos/Level elements/Sprites/teste.yy","name":"teste","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tijolos","folderPath":"folders/Objetos/Level elements/Sprites/Tijolos.yy","name":"Tijolos","resourceType":"GMFolder","resourceVersion":"2.0",},
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   ],
   "ForcedPrefabProjectReferences":[],
@@ -252,9 +258,13 @@
     {"roomId":{"name":"Apartamento","path":"rooms/Apartamento/Apartamento.yy",},},
     {"roomId":{"name":"Cidade","path":"rooms/Cidade/Cidade.yy",},},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     {"roomId":{"name":"Apartamento_1","path":"rooms/Apartamento_1/Apartamento_1.yy",},},
     {"roomId":{"name":"Apartamento_2","path":"rooms/Apartamento_2/Apartamento_2.yy",},},
     {"roomId":{"name":"Apartamento_3","path":"rooms/Apartamento_3/Apartamento_3.yy",},},
+=======
+    {"roomId":{"name":"Teste","path":"rooms/Teste/Teste.yy",},},
+>>>>>>> Stashed changes
 =======
     {"roomId":{"name":"Teste","path":"rooms/Teste/Teste.yy",},},
 >>>>>>> Stashed changes
