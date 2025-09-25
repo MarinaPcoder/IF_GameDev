@@ -1,12 +1,15 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
-    {"name":"PolicialA","order":2,"path":"objects/PolicialA/PolicialA.yy",},
-    {"name":"PolicialB","order":1,"path":"objects/PolicialB/PolicialB.yy",},
+    {"name":"obj_inimigo_02","order":1,"path":"objects/obj_inimigo_02/obj_inimigo_02.yy",},
+    {"name":"Telefone","order":1,"path":"objects/Telefone/Telefone.yy",},
     {"name":"Apartamento_1","order":1,"path":"rooms/Apartamento_1/Apartamento_1.yy",},
     {"name":"Apartamento_2","order":2,"path":"rooms/Apartamento_2/Apartamento_2.yy",},
     {"name":"Apartamento_3","order":3,"path":"rooms/Apartamento_3/Apartamento_3.yy",},
+    {"name":"spr_font_main_1","order":2,"path":"sprites/spr_font_main_1/spr_font_main_1.yy",},
     {"name":"spr_policialA_stun","order":1,"path":"sprites/spr_policialA_stun/spr_policialA_stun.yy",},
+    {"name":"spr_seta_documento","order":3,"path":"sprites/spr_seta_documento/spr_seta_documento.yy",},
     {"name":"Sprite79","order":1,"path":"sprites/Sprite79/Sprite79.yy",},
+    {"name":"telefone","order":1,"path":"sprites/telefone/telefone.yy",},
   ],
 }

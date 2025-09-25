@@ -7,7 +7,10 @@
   ],
   "managed":true,
   "name":"obj_inimigo_01",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Inimigo_pai","path":"objects/obj_Inimigo_pai/obj_Inimigo_pai.yy",},"propertyId":{"name":"alcance_visao","path":"objects/obj_Inimigo_pai/obj_Inimigo_pai.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"200",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Inimigo_pai","path":"objects/obj_Inimigo_pai/obj_Inimigo_pai.yy",},"propertyId":{"name":"abertura_visao","path":"objects/obj_Inimigo_pai/obj_Inimigo_pai.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"80",},
+  ],
   "parent":{
     "name":"Inimigos",
     "path":"folders/Objetos/Entities/Inimigos.yy",
@@ -29,10 +32,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"alcance_visao","filters":[],"listItems":[],"multiselect":false,"name":"alcance_visao","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"200","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"abertura_visao","filters":[],"listItems":[],"multiselect":false,"name":"abertura_visao","rangeEnabled":false,"rangeMax":5.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"80","varType":1,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

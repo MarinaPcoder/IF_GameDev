@@ -1,3 +1,4 @@
 room_restart()
-x = x_inicial;
-y = y_inicial;
+
+x = x_res;
+y = y_res;

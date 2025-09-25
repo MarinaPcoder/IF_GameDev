@@ -2,17 +2,17 @@ depth = -9999;
 
 //Parâmetros
 
-textbox_height= 96;
-textbox_width = 300;
+textbox_height= 200;
+textbox_width = 800;
 border = 8;
-line_sep = 14;
+line_sep = 24;
 line_width = textbox_width - border*2;
 textb_spr = spr_box;
 txtb_img = 0;
 txtb_img_spd = 18/60;
 textbo_spr = Sprite63;
 txtbo_img = 0;
-txt_adad = 0;
+txtbo_img_spd = 31/60;
 
 //Texto
 page = 0

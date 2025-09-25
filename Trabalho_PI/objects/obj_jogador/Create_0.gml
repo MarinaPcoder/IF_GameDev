@@ -171,6 +171,9 @@ meu_dano = noone;
 // Documentos fotografados
 documentos_fotografados_nesta_fase = 0;
 
+x_res = 0;
+y_res = 0;
+
 
 #endregion
 

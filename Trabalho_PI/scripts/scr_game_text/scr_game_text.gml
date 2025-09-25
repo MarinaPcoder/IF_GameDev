@@ -6,22 +6,19 @@ function scr_game_text(_text_id){
 	{
 		//--Telefonema 1--//
 		case "Dialogo-1":
-    scr_text("Bom dia, agente. Espero que esteja sozinho.")
-    scr_text("A situacao na cidade piorou. A censura esta se espalhando mais rapido do que previamos");
+    scr_text("Bom dia, agente. Espero que esteja sozinho.A situacao na cidade piorou. A censura esta se espalhando mais rapido do que previamos")
     scr_option("Qual e a missao?", "Resposta");
-    scr_option("Ouvi rumores de jornais fechados", "Resposta")
+    scr_option("Ja ouvi rumores… jornais fechados, cartazes desaparecendo. Qual é a missao?", "Resposta")
 break;
 
 case "Resposta":
-    scr_text("Precisamos de provas. Nada de suposicoes. Voce vai comecar pelas ruas centrais.")
-    scr_text("Registre tudo: fotos, videos, audios. Cada detalhe conta. Se conseguirmos expor o que esta acontecendo, talvez ainda haja chance de impedir algo maior");
-    scr_option("E a segurança? Os guardas sempre patrulham.", "Questionado");
+    scr_text("Precisamos de provas. Nada de suposicoes. Voce vai comecar pelas ruas centrais.Registre tudo: fotos, videos, audios. Cada detalhe conta. Se conseguirmos expor o que esta acontecendo, talvez ainda haja chance de impedir algo maior")
+    scr_option("E a seguranca? Ouvi dizer que guardas estao patrulhando dia e noite", "Questionado");
     scr_option("Entendido. Provas primeiro, perguntas depois", "Concluido");    
     break;
 
 case "Questionado":
-    scr_text("Eles vao tentar te impedir. Use a camera ao seu favor. O flash pode te dar alguns segundos para escapar.")
-	scr_text("Mas cuidado: um passo em falso e voce desaparece como os outros.");
+    scr_text("Eles vao tentar te impedir. Use a camera ao seu favor. O flash pode te dar alguns segundos para escapar.Mas cuidado: um passo em falso e voce desaparece como os outros.");
     scr_option("Entendido. Provas primeiro, perguntas depois", "Concluido");
     break;
 

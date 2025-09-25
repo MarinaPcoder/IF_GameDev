@@ -33,7 +33,7 @@ for(var i = 0; i < lenMenu; i++) {
 			switch menu_incial [i]
 			{
 				case menu_incial [0]: // Jogar
-				room_goto(SalaDeTeste);
+				room_goto(Apartamento);
 					break;
 				
 				case menu_incial [1]: // Sair

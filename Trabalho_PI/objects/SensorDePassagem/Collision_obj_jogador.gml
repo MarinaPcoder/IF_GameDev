@@ -21,7 +21,8 @@ if (_total_do_jogador >= _total_necessario)
     show_debug_message("Fase completa! Indo para a próxima.");
     room_goto(destino);
 	
-	other.documentos_fotografados_nesta_fase = 0;
+	other.x_res = pos_x;
+	other.y_res = pos_y;
 	other.x = pos_x;
 	other.y = pos_y;
 }
