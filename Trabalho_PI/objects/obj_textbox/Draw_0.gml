@@ -17,7 +17,7 @@ if setup == false
 		//Armazena quantos caracteres existem em cada página no "Text_length array"
 		text_length[p] = string_length(text[p]);
 		
-		text_x_offset[p] = 96;
+		text_x_offset[p] = 86;
         
     }
 }
