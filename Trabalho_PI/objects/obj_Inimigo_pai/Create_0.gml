@@ -12,7 +12,7 @@ xscale = 1;
 
 stun_timer = 0;
 
-tempo_estado = game_get_speed(gamespeed_fps) * 10;
+tempo_estado = game_get_speed(gamespeed_fps) * 5;
 timer_estado = tempo_estado;
 postox = 0;
 postoy = 0;
@@ -21,7 +21,7 @@ alvo = noone;
 direcao_vertical = 0; // -1 para cima, 0 para horizontal, 1 para baixo
 
 // Define o tempo necessário para detectar (ex: 2 segundos)
-tempo_para_detectar = game_get_speed(gamespeed_fps) / 1.1; 
+tempo_para_detectar = game_get_speed(gamespeed_fps) / 1.5; 
 // Timer que fará a contagem regressiva
 timer_deteccao = tempo_para_detectar;
 
@@ -144,7 +144,7 @@ estado_walk.roda = function()
     // --- FIM DA LÓGICA DE SELEÇÃO DE SPRITE ---
 
     // <<< ALTERADO: Agora, o inimigo desviará de qualquer objeto que seja filho de 'obj_obstaculo_pai'
-    mp_potential_step_object(postox, postoy, 1, all);
+    mp_potential_step_object(postox, postoy, 1, obj_colisor);
     
     // --- LÓGICA DE DETECÇÃO COM TIMER ---
     var _alvo_encontrado = campo_visao(alcance_visao, abertura_visao);
@@ -240,7 +240,7 @@ estado_attack.finaliza = function() {
     
         // Seguindo meu alvo
         // <<< ALTERADO: A mesma lógica é aplicada aqui para desviar enquanto persegue o jogador
-        mp_potential_step_object(alvo.x, alvo.y, 1, all);
+        mp_potential_step_object(alvo.x, alvo.y, 1, obj_colisor);
     
         // Atacando Player
         var _dist = point_distance(x, y, alvo.x, alvo.y);
@@ -248,8 +248,7 @@ estado_attack.finaliza = function() {
         if (_dist <= 10) {
             troca_estado(estado_attack);    
         }
-    
-    
+        
         // Sistema Horda
         var _n = instance_number(object_index);
         for (var i = 0; i <_n; i++) {

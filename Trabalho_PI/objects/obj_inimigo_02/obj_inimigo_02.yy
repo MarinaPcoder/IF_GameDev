@@ -7,10 +7,7 @@
   ],
   "managed":true,
   "name":"obj_inimigo_02",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Inimigo_pai","path":"objects/obj_Inimigo_pai/obj_Inimigo_pai.yy",},"propertyId":{"name":"alcance_visao","path":"objects/obj_Inimigo_pai/obj_Inimigo_pai.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"200",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Inimigo_pai","path":"objects/obj_Inimigo_pai/obj_Inimigo_pai.yy",},"propertyId":{"name":"abertura_visao","path":"objects/obj_Inimigo_pai/obj_Inimigo_pai.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"80",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Inimigos",
     "path":"folders/Objetos/Entities/Inimigos.yy",

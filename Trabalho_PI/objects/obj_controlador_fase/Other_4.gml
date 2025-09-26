@@ -23,3 +23,13 @@ if (instance_exists(obj_jogador))
 }
 
 show_debug_message("Iniciando " + room_get_name(_sala_atual) + ". Documentos necessários: " + string(documentos_totais_na_fase));
+
+// Evento Room Start de obj_controle_sala
+
+show_debug_message("Grid de Pathfinding sendo criada...");
+
+var _cell_size = 16;
+global.grid = mp_grid_create(0, 0, room_width / _cell_size, room_height / _cell_size, _cell_size, _cell_size);
+
+// Adiciona todos os objetos 'obj_colisor' como paredes na grid.
+mp_grid_add_instances(global.grid, obj_colisor, false);

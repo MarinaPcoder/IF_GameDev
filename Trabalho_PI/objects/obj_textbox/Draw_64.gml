@@ -98,7 +98,7 @@ if(draw_char == text_length[page] && page == page_number -1)
 	option_pos = clamp(option_pos, 0, option_number-1);
 	
 	//desenhando as opções
-	var _op_space = 30;
+	var _op_space = 40;
 	var _op_bord = 4;
 	for (var op = 0; op < option_number; op++)
 	{

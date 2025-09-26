@@ -174,6 +174,13 @@ documentos_fotografados_nesta_fase = 0;
 x_res = 0;
 y_res = 0;
 
+// Variável para a ID do documento mais próximo (se houver)
+documento_alvo_para_seta = noone;
+
+// Offset para onde a seta será desenhada em relação ao jogador
+offset_seta_x = 0;
+offset_seta_y = -70; // Ajuste este valor para a seta aparecer acima do jogador, por exemplo
+
 
 #endregion
 
